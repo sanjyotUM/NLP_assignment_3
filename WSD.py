@@ -200,7 +200,7 @@ if __name__ == '__main__':
 
             sense_count_dict = train.sense.value_counts().to_dict()
             vocab_size = get_vocab_size(train)
-            f_given_s = get_f_given_s_df(train, vocab_size)
+            f_given_s = get_f_given_s_df(train, vocab_size, disambiguate_word)
 
             def predict_func_with_context(
                     word_list,
