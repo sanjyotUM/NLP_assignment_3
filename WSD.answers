@@ -1,0 +1,96 @@
+1. Program is complete.
+
+2. plant.wsd
+
+3.
+0 86.84
+1 92.11
+2 84.21
+3 92.11
+4 44.44
+Average: 80.32
+
+4.
+Instance plant.1000004 (actual: living, predicted: factory)
+Lots of token in data are generic tokens which appear in text belonging to both the senses. More training data with a
+greater token diversity should help.
+
+Instance plant.1000104	(actual: factory, predicted: living)
+Many tokens in this text are things related to living beings (animal, fish, egg etc.) resulting in 'living' sense
+probabilities winning. To correct this, we need to include more semantic understanding in our models (not possible in
+Naive Bayes)
+
+Instance plant.1000105 (actual: living, predicted: factory)
+Number of tokens are less to get a meaningful discrimination of sense. Need more training data to get high quality
+probabilities of features given sense.
+
+
+--- bass.wsd ---
+1. Program is complete.
+
+2. bass.wsd
+
+3.
+0 72.73
+1 95.45
+2 90.91
+3 100.0
+4 94.74
+Average: 90.65
+
+
+--- crane.wsd ---
+1. Program is complete.
+
+2. crane.wsd
+
+3.
+0 68.42
+1 73.68
+2 73.68
+3 89.47
+4 84.21
+Average: 77.89
+
+
+--- motion.wsd ---
+1. Program is complete.
+
+2. motion.wsd
+
+3.
+0 63.41
+1 78.05
+2 90.24
+3 90.24
+4 89.19
+Average: 82.09
+
+
+--- palm.wsd ---
+1. Program is complete.
+
+2. palm.wsd
+
+3.
+0 75.61
+1 75.61
+2 68.29
+3 80.49
+4 75.68
+Average: 75.12
+
+
+--- tank-1.wsd ---
+1. Program is complete.
+
+2. tank.wsd
+
+3.
+0 68.29
+1 56.1
+2 82.93
+3 82.93
+4 45.95
+Average: 67.66
+
